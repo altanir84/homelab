@@ -4,7 +4,7 @@
 
 title: "Palazzo HomeLab"
 subtitle: ""
-logo: "assets/icons/homer-icons/png/palazzo-icon.png"
+logo: "icons/homer-icons/png/palazzo-icon.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
@@ -72,7 +72,7 @@ services:
     icon: "fas fa-cloud"
     items:
       - name: "NAS Palazzo"
-        logo: "assets/icons/homer-icons/png/synology.png"  #TODO mudar o icone aqui
+        logo: "assets/icons/homer-icons/png/synology.png"
         subtitle: "Bookmark example"
         tag: "NAS"
         keywords: "Synology NAS DS418"
