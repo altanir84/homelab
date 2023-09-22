@@ -4,7 +4,7 @@
 
 title: "Palazzo HomeLab"
 subtitle: ""
-logo: "icons/homer-icons/png/palazzo-icon.png"
+logo: "logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
@@ -79,7 +79,7 @@ services:
         url: "https://192.168.1.129:6251/"
         target: "_blank" # optional html a tag target attribute
       - name: "Another one"
-        logo: "assets/tools/sample2.png"
+        logo: "assets/icons/homer-icons/png/sonarr.png"
         subtitle: "Another application"
         tag: "app"
         url: "#"
