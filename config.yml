@@ -2,9 +2,9 @@
 # Homepage configuration
 # See https://fontawesome.com/v5/search for icons options
 
-title: "Demo dashboard"
-subtitle: "Homer"
-logo: "logo.png"
+title: "Palazzo HomeLab"
+subtitle: ""
+logo: "assets/icons/homer-icons/palazzo-icon.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
@@ -72,7 +72,7 @@ services:
     icon: "fas fa-cloud"
     items:
       - name: "Awesome app"
-        logo: "assets/tools/sample.png"
+        logo: "assets/icons/homer-icons/"  #TODO mudar o icone aqui
         subtitle: "Bookmark example"
         tag: "app"
         keywords: "self hosted reddit"
