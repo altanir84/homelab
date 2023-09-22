@@ -4,7 +4,7 @@
 
 title: "Palazzo HomeLab"
 subtitle: ""
-logo: "assets/icons/homer-icons/palazzo-icon.png"
+logo: "assets/icons/homer-icons/png/palazzo-icon.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
@@ -71,12 +71,12 @@ services:
   - name: "Applications"
     icon: "fas fa-cloud"
     items:
-      - name: "Awesome app"
-        logo: "assets/icons/homer-icons/"  #TODO mudar o icone aqui
+      - name: "NAS Palazzo"
+        logo: "assets/icons/homer-icons/png/synology.png"  #TODO mudar o icone aqui
         subtitle: "Bookmark example"
-        tag: "app"
-        keywords: "self hosted reddit"
-        url: "https://www.reddit.com/r/selfhosted/"
+        tag: "NAS"
+        keywords: "Synology NAS DS418"
+        url: "https://192.168.1.129:6251/"
         target: "_blank" # optional html a tag target attribute
       - name: "Another one"
         logo: "assets/tools/sample2.png"
