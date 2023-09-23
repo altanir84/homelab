@@ -5,9 +5,9 @@
 title: "Palazzo HomeLab"
 subtitle: ""
 logo: "logo.png"
-icon: "fas fa-skull-crossbones" # Optional icon
 
-header: false
+
+header: true
 footer: false
 
 # Optional theme customization
@@ -60,3 +60,19 @@ services:
         subtitle: "palazzo.pve"
         tag: "VMs"
         url: "https://192.168.1.108:8006"
+  - name: "Downloads"
+    icon: "	fa fa-cloud-download"
+    items:
+      - name: "Sonarr"
+        logo: "assets/icons/homer-icons/png/sonarr.png"
+        subtitle: "Sonarr"
+        tag: "Series"
+        keywords: "Sonarr running on synology NAS"
+        url: "https://http://192.168.1.129:8989/"
+        target: "_blank" # optional html a tag target attribute
+      - name: "Radarr"
+        logo: "assets/icons/homer-icons/png/radarr.png"
+        subtitle: "Radarr"
+        tag: "VMs"
+        keywords: "Radarr running on synology NAS"
+        url: "https://192.168.1.129:8310"
