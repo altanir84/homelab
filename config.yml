@@ -68,18 +68,18 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Applications"
+  - name: "Centrais"
     icon: "fas fa-cloud"
     items:
       - name: "NAS Palazzo"
         logo: "assets/icons/homer-icons/png/synology.png"
-        subtitle: "Bookmark example"
+        subtitle: "nas-palazzo"
         tag: "NAS"
         keywords: "Synology NAS DS418"
         url: "https://192.168.1.129:6251/"
         target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
-        logo: "assets/icons/homer-icons/png/sonarr.png"
-        subtitle: "Another application"
-        tag: "app"
-        url: "#"
+      - name: "Proxmox"
+        logo: "assets/icons/homer-icons/png/proxmox.png"
+        subtitle: "palazzo.pve"
+        tag: "VMs"
+        url: "https://192.168.1.108:8006"
