@@ -6,7 +6,7 @@ title: "Palazzo HomeLab"
 subtitle: ""
 logo: "logo.png"
 
-
+# NGINX http://192.168.1.113:81
 header: true
 footer: false
 
@@ -93,9 +93,31 @@ services:
         tag: "Indexador"
         keywords: "Prowlarr running on synology NAS"
         url: "https://192.168.1.129:9696"
-      - name: "Jacket"
-        logo: "assets/icons/homer-icons/png/jacket.png"
-        subtitle: "Jacket"
+      - name: "Jackett"
+        logo: "assets/icons/homer-icons/png/jackett.png"
+        subtitle: "Jackett"
         tag: "Indexador"
-        keywords: "Jacket running on synology NAS"
+        keywords: "Jackett running on synology NAS"
         url: "https://192.168.1.129:9117"
+
+- name: "Rede"
+    icon: "fas fa-ethernet"
+    items:
+      - name: "Roteador"
+        logo: "assets/icons/homer-icons/png/tplink.png"
+        subtitle: "TP-Link Deco AX3000 X55"
+        tag: "Router"
+        #keywords: "Prowlarr running on synology NAS"
+        url: "https://192.168.1.1"
+      - name: "ADGuard"
+        logo: "assets/icons/homer-icons/png/adguard.png"
+        subtitle: "ADGuard DNS"
+        tag: "DNS"
+        #keywords: "Jackett running on synology NAS"
+        url: "http://192.168.1.110"
+      - name: "NGINX"
+        logo: "assets/icons/homer-icons/png/nginx.png"
+        subtitle: "NGINX proxy manager"
+        tag: "Proxy"
+        #keywords: "Jackett running on synology NAS"
+        url: "http://192.168.1.113:81"
