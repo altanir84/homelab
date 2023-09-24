@@ -61,6 +61,23 @@ services:
         tag: "VMs"
         url: "https://proxmox.palazzonet.duckdns.org"  # "https://192.168.1.108:8006"
 
+  - name: "Players"
+    icon: "fas fa-bullseye"
+    items:
+      - name: "Emby Server"
+        logo: "assets/icons/homer-icons/png/emby.png"
+        subtitle: "Emby"
+        tag: "Media Server"
+        keywords: "Emby server on synology NAS"
+        url: "https://emby.palazzonet.duckdns.org"  # "https://192.168.1.129:8096/"
+      - name: "Plex Server"
+        logo: "assets/icons/homer-icons/png/plex.png"
+        subtitle: "Plex"
+        tag: "Plex Server"
+        keywords: "Plex server on synology NAS"
+        url: "https://plex.palazzonet.duckdns.org"  # "https://192.168.1.129:32400/"
+
+
   - name: "Downloads"
     icon: "fa fa-cloud-download"
     items:
