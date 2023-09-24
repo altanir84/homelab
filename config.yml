@@ -53,7 +53,7 @@ services:
         subtitle: "nas-palazzo"
         tag: "NAS"
         keywords: "Synology NAS DS418"
-        url: "https://192.168.1.129:6251/"
+        url: "https://nas.palazzonet.duckdns.org"  # "https://192.168.1.129:6251/"
         target: "_blank" # optional html a tag target attribute
       - name: "Proxmox"
         logo: "assets/icons/homer-icons/png/proxmox.png"
@@ -100,7 +100,7 @@ services:
         keywords: "Jackett running on synology NAS"
         url: "https://192.168.1.129:9117"
 
-- name: "Rede"
+  - name: "Rede"
     icon: "fas fa-ethernet"
     items:
       - name: "Roteador"
@@ -110,7 +110,7 @@ services:
         #keywords: "Prowlarr running on synology NAS"
         url: "https://192.168.1.1"
       - name: "ADGuard"
-        logo: "assets/icons/homer-icons/png/adguard.png"
+        logo: "assets/icons/homer-icons/png/adguardhome.png"
         subtitle: "ADGuard DNS"
         tag: "DNS"
         #keywords: "Jackett running on synology NAS"
