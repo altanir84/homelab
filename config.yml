@@ -69,7 +69,7 @@ services:
         subtitle: "Sonarr"
         tag: "Series"
         keywords: "Sonarr running on synology NAS"
-        url: "https://http://192.168.1.129:8989/"
+        url: "https://sonarr.palazzonet.duckdns.org"  # "https://192.168.1.129:8989/"
         target: "_blank" # optional html a tag target attribute
       - name: "Radarr"
         logo: "assets/icons/homer-icons/png/radarr.png"
