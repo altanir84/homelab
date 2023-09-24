@@ -62,7 +62,7 @@ services:
         url: "https://proxmox.palazzonet.duckdns.org"  # "https://192.168.1.108:8006"
 
   - name: "Players"
-    icon: "fas fa-bullseye"
+    icon: "fas fa-film"
     items:
       - name: "Emby Server"
         logo: "assets/icons/homer-icons/png/emby.png"
