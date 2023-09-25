@@ -54,7 +54,14 @@ services:
         tag: "NAS"
         keywords: "Synology NAS DS418"
         url: "https://nas.palazzonet.duckdns.org"  # "https://192.168.1.129:6251/"
-        target: "_blank" # optional html a tag target attribute
+
+      - name: "NAS Palazzo (IP)"
+        logo: "assets/icons/homer-icons/png/synology.png"
+        subtitle: "nas-palazzo via IP"
+        tag: "NAS"
+        keywords: "Synology NAS DS418"
+        url: "https://192.168.1.129:6251/"
+
       - name: "Proxmox"
         logo: "assets/icons/homer-icons/png/proxmox.png"
         subtitle: "palazzo.pve"
@@ -70,13 +77,13 @@ services:
         tag: "Media Server"
         keywords: "Emby server on synology NAS"
         url: "https://emby.palazzonet.duckdns.org"  # "https://192.168.1.129:8096/"
+
       - name: "Plex Server"
         logo: "assets/icons/homer-icons/png/plex.png"
         subtitle: "Plex"
         tag: "Plex Server"
         keywords: "Plex server on synology NAS"
         url: "https://plex.palazzonet.duckdns.org"  # "https://192.168.1.129:32400/"
-
 
   - name: "Downloads"
     icon: "fa fa-cloud-download"
@@ -87,13 +94,14 @@ services:
         tag: "Series"
         keywords: "Sonarr running on synology NAS"
         url: "https://sonarr.palazzonet.duckdns.org"  # "https://192.168.1.129:8989/"
-        target: "_blank" # optional html a tag target attribute
+
       - name: "Radarr"
         logo: "assets/icons/homer-icons/png/radarr.png"
         subtitle: "Radarr"
         tag: "Filmes"
         keywords: "Radarr running on synology NAS"
         url: "https://radarr.palazzonet.duckdns.org"  # "https://192.168.1.129:8310"
+
       - name: "Bazarr"
         logo: "assets/icons/homer-icons/png/bazarr.png"
         subtitle: "Bazarr"
@@ -110,6 +118,7 @@ services:
         tag: "Indexador"
         keywords: "Prowlarr running on synology NAS"
         url: "https://prowlarr.palazzonet.duckdns.org"  #  "https://192.168.1.129:9696"
+
       - name: "Jackett"
         logo: "assets/icons/homer-icons/png/jackett.png"
         subtitle: "Jackett"
@@ -125,11 +134,13 @@ services:
         subtitle: "TP-Link Deco AX3000 X55"
         tag: "Router"
         url: "https://192.168.1.1"
+
       - name: "ADGuard"
         logo: "assets/icons/homer-icons/png/adguardhome.png"
         subtitle: "ADGuard DNS"
         tag: "DNS"
         url: "http://192.168.1.110"
+
       - name: "NGINX"
         logo: "assets/icons/homer-icons/png/nginx_2.png"
         subtitle: "NGINX proxy manager"
