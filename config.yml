@@ -54,6 +54,7 @@ services:
         tag: "NAS"
         keywords: "Synology NAS DS418"
         url: "https://nas.palazzonet.duckdns.org"  # "https://192.168.1.129:6251/"
+        target: "_blank"
 
       - name: "NAS Palazzo (IP)"
         logo: "assets/icons/homer-icons/png/synology.png"
@@ -61,12 +62,14 @@ services:
         tag: "NAS"
         keywords: "Synology NAS DS418"
         url: "https://192.168.1.129:6251/"
+        target: "_blank"
 
       - name: "Proxmox"
         logo: "assets/icons/homer-icons/png/proxmox.png"
         subtitle: "palazzo.pve"
         tag: "VMs"
         url: "https://proxmox.palazzonet.duckdns.org"  # "https://192.168.1.108:8006"
+        target: "_blank"
 
   - name: "Players"
     icon: "fas fa-film"
@@ -77,6 +80,7 @@ services:
         tag: "Media Server"
         keywords: "Emby server on synology NAS"
         url: "https://emby.palazzonet.duckdns.org"  # "https://192.168.1.129:8096/"
+        target: "_blank"
 
       - name: "Plex Server"
         logo: "assets/icons/homer-icons/png/plex.png"
@@ -84,6 +88,7 @@ services:
         tag: "Plex Server"
         keywords: "Plex server on synology NAS"
         url: "https://plex.palazzonet.duckdns.org"  # "https://192.168.1.129:32400/"
+        target: "_blank"
 
   - name: "Downloads"
     icon: "fa fa-cloud-download"
@@ -94,6 +99,7 @@ services:
         tag: "Series"
         keywords: "Sonarr running on synology NAS"
         url: "https://sonarr.palazzonet.duckdns.org"  # "https://192.168.1.129:8989/"
+        target: "_blank"
 
       - name: "Radarr"
         logo: "assets/icons/homer-icons/png/radarr.png"
@@ -101,6 +107,7 @@ services:
         tag: "Filmes"
         keywords: "Radarr running on synology NAS"
         url: "https://radarr.palazzonet.duckdns.org"  # "https://192.168.1.129:8310"
+        target: "_blank"
 
       - name: "Bazarr"
         logo: "assets/icons/homer-icons/png/bazarr.png"
@@ -108,6 +115,7 @@ services:
         tag: "Legendas"
         keywords: "Bazarr running on synology NAS"
         url: "https://bazarr.palazzonet.duckdns.org"  #  "https://192.168.1.129:6767"
+        target: "_blank"
 
   - name: "Indexadores"
     icon: "fa fa-rss-square"
@@ -118,6 +126,7 @@ services:
         tag: "Indexador"
         keywords: "Prowlarr running on synology NAS"
         url: "https://prowlarr.palazzonet.duckdns.org"  #  "https://192.168.1.129:9696"
+        target: "_blank"
 
       - name: "Jackett"
         logo: "assets/icons/homer-icons/png/jackett.png"
@@ -125,6 +134,7 @@ services:
         tag: "Indexador"
         keywords: "Jackett running on synology NAS"
         url: "https://jackett.palazzonet.duckdns.org"  #  "https://192.168.1.129:9117"
+        target: "_blank"
 
   - name: "Rede"
     icon: "fas fa-ethernet"
@@ -134,15 +144,18 @@ services:
         subtitle: "TP-Link Deco AX3000 X55"
         tag: "Router"
         url: "https://192.168.1.1"
+        target: "_blank"
 
       - name: "ADGuard"
         logo: "assets/icons/homer-icons/png/adguardhome.png"
         subtitle: "ADGuard DNS"
         tag: "DNS"
         url: "http://192.168.1.110"
+        target: "_blank"
 
       - name: "NGINX"
         logo: "assets/icons/homer-icons/png/nginx_2.png"
         subtitle: "NGINX proxy manager"
         tag: "Proxy"
         url: "https://palazzonet.duckdns.org"  # "http://192.168.1.113:81"
+        target: "_blank"
