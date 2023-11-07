@@ -71,7 +71,7 @@ services:
         url: "https://proxmox.palazzonet.duckdns.org"  # "https://192.168.1.108:8006"
         target: "_blank"
 
-  - name: "Players"
+  - name: "Media Servers"
     icon: "fas fa-film"
     items:
       - name: "Emby Server"
@@ -88,6 +88,14 @@ services:
         tag: "Plex Server"
         keywords: "Plex server on synology NAS"
         url: "https://plex.palazzonet.duckdns.org"  # "https://192.168.1.129:32400/"
+        target: "_blank"
+
+      - name: "Jellyfin"
+        logo: "assets/icons/homer-icons/png/jellyfin.png"
+        subtitle: "Jellyfin"
+        tag: "Jellyfin Server"
+        keywords: "Jellyfin server on proxmox VM"
+        url: "https://jellyfin.palazzonet.duckdns.org"  # "https://192.168.1.107:8096/"
         target: "_blank"
 
   - name: "Downloads"
