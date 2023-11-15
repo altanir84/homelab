@@ -74,6 +74,14 @@ services:
   - name: "Media Servers"
     icon: "fas fa-film"
     items:
+      - name: "Jellyfin"
+        logo: "assets/icons/homer-icons/png/jellyfin.png"
+        subtitle: "Jellyfin"
+        tag: "Jellyfin Server"
+        keywords: "Jellyfin server on proxmox LXC"
+        url: "https://jellyfin.palazzonet.duckdns.org"  # "https://192.168.1.107:8096/"
+        target: "_blank"
+
       - name: "Emby Server"
         logo: "assets/icons/homer-icons/png/emby.png"
         subtitle: "Emby"
@@ -88,14 +96,6 @@ services:
         tag: "Plex Server"
         keywords: "Plex server on synology NAS"
         url: "https://plex.palazzonet.duckdns.org"  # "https://192.168.1.129:32400/"
-        target: "_blank"
-
-      - name: "Jellyfin"
-        logo: "assets/icons/homer-icons/png/jellyfin.png"
-        subtitle: "Jellyfin"
-        tag: "Jellyfin Server"
-        keywords: "Jellyfin server on proxmox VM"
-        url: "https://jellyfin.palazzonet.duckdns.org"  # "https://192.168.1.107:8096/"
         target: "_blank"
 
   - name: "Downloads"
@@ -121,8 +121,8 @@ services:
         logo: "assets/icons/homer-icons/png/bazarr.png"
         subtitle: "Bazarr"
         tag: "Legendas"
-        keywords: "Bazarr running on synology NAS"
-        url: "https://bazarr.palazzonet.duckdns.org"  #  "https://192.168.1.129:6767"
+        keywords: "Bazarr running on proxmox LXC"
+        url: "https://bazarr.palazzonet.duckdns.org"  #  "https://192.168.1.106:6767"
         target: "_blank"
 
   - name: "Indexadores"
