@@ -144,6 +144,17 @@ services:
         url: "https://jackett.palazzonet.duckdns.org"  #  "https://192.168.1.129:9117"
         target: "_blank"
 
+  - name: "Documentos"
+    icon: "fas fa-file"
+    items:
+      - name: "Paperless-ngx"
+        logo: "assets/icons/homer-icons/png/paperless-ng.png"
+        subtitle: "paperless"
+        tag: "DOC"
+        keywords: "Paperless"
+        url: "https://paperless.palazzonet.duckdns.org"  # "http://192.168.1.119:8000/"
+        target: "_blank"
+
   - name: "Rede"
     icon: "fas fa-ethernet"
     items:
