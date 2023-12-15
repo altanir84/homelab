@@ -125,6 +125,14 @@ services:
         url: "https://bazarr.palazzonet.duckdns.org"  #  "https://192.168.1.106:6767"
         target: "_blank"
 
+      - name: "Deluge"
+        logo: "assets/icons/homer-icons/png/deluge.png"
+        subtitle: "Deluge"
+        tag: "Torrent"
+        keywords: "Torrent running on synology NAS"
+        url: "https://deluge.palazzonet.duckdns.org"  #  'http://192.168.1.129:8112/'
+        target: "_blank"
+
   - name: "Indexadores"
     icon: "fa fa-rss-square"
     items:
@@ -144,14 +152,14 @@ services:
         url: "https://jackett.palazzonet.duckdns.org"  #  "https://192.168.1.129:9117"
         target: "_blank"
 
-  - name: "Documentos"
+  - name: "Arquivos"
     icon: "fas fa-file"
     items:
       - name: "Paperless-ngx"
         logo: "assets/icons/homer-icons/png/paperless-ng.png"
         subtitle: "paperless"
         tag: "DOC"
-        keywords: "Paperless"
+        keywords: "Paperless running on proxmox LXC"
         url: "https://paperless.palazzonet.duckdns.org"  # "http://192.168.1.119:8000/"
         target: "_blank"
 
@@ -178,3 +186,15 @@ services:
         tag: "Proxy"
         url: "https://palazzonet.duckdns.org"  # "http://192.168.1.113:81"
         target: "_blank"
+
+  - name: "Segurança"
+    icon: "fas fa-lock"
+    items:
+      - name: "VaultWarden"
+        logo: "assets/icons/homer-icons/png/vaultwarden.png"
+        subtitle: "VaultWarden"
+        tag: "Vault"
+        keywords: "Paperless running on proxmox LXC"
+        url: "https://vault.palazzonet.duckdns.org" # 'http://192.168.1.120:8000 '
+        target: "_blank"
+
