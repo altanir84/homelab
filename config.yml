@@ -58,7 +58,7 @@ services:
 
       - name: "NAS Palazzo (IP)"
         logo: "assets/icons/homer-icons/png/synology.png"
-        subtitle: "nas-palazzo via IP"
+        subtitle: "nas-palazzo (IP)"
         tag: "NAS"
         keywords: "Synology NAS DS418"
         url: "https://192.168.1.129:6251/"
@@ -66,7 +66,7 @@ services:
 
       - name: "Proxmox"
         logo: "assets/icons/homer-icons/png/proxmox.png"
-        subtitle: "palazzo.pve"
+        subtitle: "palazzo.pve @ HomeLab"
         tag: "VMs"
         url: "https://proxmox.palazzonet.duckdns.org"  # "https://192.168.1.108:8006"
         target: "_blank"
@@ -76,7 +76,7 @@ services:
     items:
       - name: "Jellyfin"
         logo: "assets/icons/homer-icons/png/jellyfin.png"
-        subtitle: "Jellyfin"
+        subtitle: "Jellyfin @ HomeLab"
         tag: "Jellyfin Server"
         keywords: "Jellyfin server on proxmox LXC"
         url: "https://jellyfin.palazzonet.duckdns.org"  # "https://192.168.1.107:8096/"
@@ -84,7 +84,7 @@ services:
 
       - name: "Emby Server"
         logo: "assets/icons/homer-icons/png/emby.png"
-        subtitle: "Emby"
+        subtitle: "Emby @ NAS"
         tag: "Media Server"
         keywords: "Emby server on synology NAS"
         url: "https://emby.palazzonet.duckdns.org"  # "https://192.168.1.129:8096/"
@@ -92,7 +92,7 @@ services:
 
       - name: "Plex Server"
         logo: "assets/icons/homer-icons/png/plex.png"
-        subtitle: "Plex"
+        subtitle: "Plex @ NAS"
         tag: "Plex Server"
         keywords: "Plex server on synology NAS"
         url: "https://plex.palazzonet.duckdns.org"  # "https://192.168.1.129:32400/"
@@ -103,7 +103,7 @@ services:
     items:
       - name: "Sonarr"
         logo: "assets/icons/homer-icons/png/sonarr.png"
-        subtitle: "Sonarr"
+        subtitle: "Sonarr @ NAS"
         tag: "Series"
         keywords: "Sonarr running on synology NAS"
         url: "https://sonarr.palazzonet.duckdns.org"  # "https://192.168.1.129:8989/"
@@ -111,7 +111,7 @@ services:
 
       - name: "Radarr"
         logo: "assets/icons/homer-icons/png/radarr.png"
-        subtitle: "Radarr"
+        subtitle: "Radarr @ NAS"
         tag: "Filmes"
         keywords: "Radarr running on synology NAS"
         url: "https://radarr.palazzonet.duckdns.org"  # "https://192.168.1.129:8310"
@@ -119,7 +119,7 @@ services:
 
       - name: "Bazarr"
         logo: "assets/icons/homer-icons/png/bazarr.png"
-        subtitle: "Bazarr"
+        subtitle: "Bazarr @ HomeLab"
         tag: "Legendas"
         keywords: "Bazarr running on proxmox LXC"
         url: "https://bazarr.palazzonet.duckdns.org"  #  "https://192.168.1.106:6767"
@@ -127,7 +127,7 @@ services:
 
       - name: "Deluge"
         logo: "assets/icons/homer-icons/png/deluge.png"
-        subtitle: "Deluge"
+        subtitle: "Deluge @ NAS"
         tag: "Torrent"
         keywords: "Torrent running on synology NAS"
         url: "https://deluge.palazzonet.duckdns.org"  #  'http://192.168.1.129:8112/'
@@ -138,7 +138,7 @@ services:
     items:
       - name: "Prowlarr"
         logo: "assets/icons/homer-icons/png/prowlarr.png"
-        subtitle: "Prowlarr"
+        subtitle: "Prowlarr @ NAS"
         tag: "Indexador"
         keywords: "Prowlarr running on synology NAS"
         url: "https://prowlarr.palazzonet.duckdns.org"  #  "https://192.168.1.129:9696"
@@ -146,7 +146,7 @@ services:
 
       - name: "Jackett"
         logo: "assets/icons/homer-icons/png/jackett.png"
-        subtitle: "Jackett"
+        subtitle: "Jackett @ NAS"
         tag: "Indexador"
         keywords: "Jackett running on synology NAS"
         url: "https://jackett.palazzonet.duckdns.org"  #  "https://192.168.1.129:9117"
@@ -157,7 +157,7 @@ services:
     items:
       - name: "Paperless-ngx"
         logo: "assets/icons/homer-icons/png/paperless-ng.png"
-        subtitle: "paperless"
+        subtitle: "Paperless @ HomeLab"
         tag: "DOC"
         keywords: "Paperless running on proxmox LXC"
         url: "https://paperless.palazzonet.duckdns.org"  # "http://192.168.1.119:8000/"
@@ -175,14 +175,14 @@ services:
 
       - name: "ADGuard"
         logo: "assets/icons/homer-icons/png/adguardhome.png"
-        subtitle: "ADGuard DNS"
+        subtitle: "ADGuard DNS @ HomeLab"
         tag: "DNS"
         url: "http://192.168.1.110"
         target: "_blank"
 
       - name: "NGINX"
         logo: "assets/icons/homer-icons/png/nginx_2.png"
-        subtitle: "NGINX proxy manager"
+        subtitle: "NGINX proxy manager @ HomeLab"
         tag: "Proxy"
         url: "https://palazzonet.duckdns.org"  # "http://192.168.1.113:81"
         target: "_blank"
@@ -192,7 +192,7 @@ services:
     items:
       - name: "VaultWarden"
         logo: "assets/icons/homer-icons/png/vaultwarden.png"
-        subtitle: "VaultWarden"
+        subtitle: "VaultWarden @ HomeLab"
         tag: "Vault"
         keywords: "Paperless running on proxmox LXC"
         url: "https://vault.palazzonet.duckdns.org" # 'http://192.168.1.120:8000 '
